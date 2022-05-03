@@ -1,0 +1,14 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="myPackage" extends="struts-default,json-default" >
+        <!--        <action name="login" class="com.placement.struts2.actions.LoginAction">
+            <interceptor-ref name="jsonValidationWorkflowStack"/>
+            <result name="input">/login.jsp</result>
+            <result name="success">/success.jsp</result>
+        </action>-->
+    </package>
+    <constant name="struts.devMode" value="true" />
+</struts>
